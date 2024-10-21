@@ -1,0 +1,62 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #121212 0%, #2A2A2A 100%);
+    color: #FFFFFF;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #FF4654; /* Warna merah Valorant */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(30, 30, 30, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+    color: #FFCC00; /* Warna kuning Valorant */
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #FF4654; /* Warna merah Valorant */
+    border-radius: 5px;
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
+input[type="submit"] {
+    background-color: #FF4654; /* Warna merah Valorant */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #FF1C24;
+}
+
+#informasi {
+    margin-top: 20px;
+    text-align: center;
+    color: #FFCC00; /* Warna kuning untuk informasi */
+    font-weight: bold;
+}
